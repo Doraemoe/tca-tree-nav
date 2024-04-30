@@ -1,24 +1,55 @@
-//
-//  ContentView.swift
-//  tca-tree-nav
-//
-//  Created by Yifan Jin on 30/4/2024.
-//
-
+import ComposableArchitecture
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+@Reducer struct AppFeature {
+
+    @ObservableState
+    struct State: Equatable {
+        var tabName = "library"
+        var successMessage = ""
+        var errorMessage = ""
+
+        var settings = SettingsFeature.State()
+    }
+
+    enum Action: BindableAction {
+        case binding(BindingAction<State>)
+
+        case settings(SettingsFeature.Action)
+    }
+
+    var body: some Reducer<State, Action> {
+        BindingReducer()
+
+        Scope(state: \.settings, action: \.settings) {
+            SettingsFeature()
         }
-        .padding()
+
+        Reduce { state, action in
+            switch action {
+            default:
+                return .none
+            }
+        }
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView: View {
+
+    @Bindable var store: StoreOf<AppFeature>
+
+    var body: some View {
+        TabView(selection: $store.tabName) {
+            settingsView
+        }
+    }
+
+    var settingsView: some View {
+        SettingsView(store: store.scope(state: \.settings, action: \.settings))
+            .tabItem {
+                Image(systemName: "gearshape")
+                Text("settings")
+            }
+            .tag("settings")
+    }
 }
