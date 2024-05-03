@@ -65,10 +65,9 @@ struct ArchiveDetailsV2: View {
             .background(.red)
             .foregroundColor(.white)
             .clipShape(Capsule())
-            
+            .alert(
+                $store.scope(state: \.alert, action: \.alert)
+            )
         }
-        .alert(
-            $store.scope(state: \.alert, action: \.alert)
-        )
     }
 }
