@@ -7,26 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9C881EA2BE47AA40012BE1C /* ArchiveListV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C881E82BE47AA40012BE1C /* ArchiveListV2.swift */; };
+		E9C881EB2BE47AA40012BE1C /* ArchiveGridV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C881E92BE47AA40012BE1C /* ArchiveGridV2.swift */; };
+		E9C881EE2BE47AAF0012BE1C /* LibraryListV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C881EC2BE47AAF0012BE1C /* LibraryListV2.swift */; };
+		E9C881EF2BE47AAF0012BE1C /* SearchViewV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C881ED2BE47AAF0012BE1C /* SearchViewV2.swift */; };
+		E9C881F32BE47E3D0012BE1C /* ArchiveDetailsV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C881F22BE47E3D0012BE1C /* ArchiveDetailsV2.swift */; };
 		E9F8D1012BE08A8100D49AE0 /* tca_tree_navApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F8D1002BE08A8100D49AE0 /* tca_tree_navApp.swift */; };
 		E9F8D1032BE08A8100D49AE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F8D1022BE08A8100D49AE0 /* ContentView.swift */; };
 		E9F8D1052BE08A8300D49AE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F8D1042BE08A8300D49AE0 /* Assets.xcassets */; };
 		E9F8D1092BE08A8300D49AE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F8D1082BE08A8300D49AE0 /* Preview Assets.xcassets */; };
 		E9F8D1112BE08ADE00D49AE0 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = E9F8D1102BE08ADE00D49AE0 /* ComposableArchitecture */; };
-		E9F8D1132BE08B4B00D49AE0 /* ViewSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F8D1122BE08B4B00D49AE0 /* ViewSettings.swift */; };
-		E9F8D1152BE08C1700D49AE0 /* LockScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F8D1142BE08C1700D49AE0 /* LockScreen.swift */; };
-		E9F8D1172BE0921E00D49AE0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F8D1162BE0921E00D49AE0 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E9C881E82BE47AA40012BE1C /* ArchiveListV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchiveListV2.swift; sourceTree = "<group>"; };
+		E9C881E92BE47AA40012BE1C /* ArchiveGridV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchiveGridV2.swift; sourceTree = "<group>"; };
+		E9C881EC2BE47AAF0012BE1C /* LibraryListV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryListV2.swift; sourceTree = "<group>"; };
+		E9C881ED2BE47AAF0012BE1C /* SearchViewV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewV2.swift; sourceTree = "<group>"; };
+		E9C881F22BE47E3D0012BE1C /* ArchiveDetailsV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchiveDetailsV2.swift; sourceTree = "<group>"; };
 		E9F8D0FD2BE08A8100D49AE0 /* tca-tree-nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tca-tree-nav.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F8D1002BE08A8100D49AE0 /* tca_tree_navApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tca_tree_navApp.swift; sourceTree = "<group>"; };
 		E9F8D1022BE08A8100D49AE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9F8D1042BE08A8300D49AE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9F8D1062BE08A8300D49AE0 /* tca_tree_nav.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tca_tree_nav.entitlements; sourceTree = "<group>"; };
 		E9F8D1082BE08A8300D49AE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E9F8D1122BE08B4B00D49AE0 /* ViewSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSettings.swift; sourceTree = "<group>"; };
-		E9F8D1142BE08C1700D49AE0 /* LockScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreen.swift; sourceTree = "<group>"; };
-		E9F8D1162BE0921E00D49AE0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				E9F8D1002BE08A8100D49AE0 /* tca_tree_navApp.swift */,
+				E9C881E92BE47AA40012BE1C /* ArchiveGridV2.swift */,
+				E9C881EC2BE47AAF0012BE1C /* LibraryListV2.swift */,
+				E9C881ED2BE47AAF0012BE1C /* SearchViewV2.swift */,
+				E9C881E82BE47AA40012BE1C /* ArchiveListV2.swift */,
+				E9C881F22BE47E3D0012BE1C /* ArchiveDetailsV2.swift */,
 				E9F8D1022BE08A8100D49AE0 /* ContentView.swift */,
-				E9F8D1162BE0921E00D49AE0 /* SettingsView.swift */,
-				E9F8D1122BE08B4B00D49AE0 /* ViewSettings.swift */,
-				E9F8D1142BE08C1700D49AE0 /* LockScreen.swift */,
 				E9F8D1042BE08A8300D49AE0 /* Assets.xcassets */,
 				E9F8D1062BE08A8300D49AE0 /* tca_tree_nav.entitlements */,
 				E9F8D1072BE08A8300D49AE0 /* Preview Content */,
@@ -156,11 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9F8D1172BE0921E00D49AE0 /* SettingsView.swift in Sources */,
+				E9C881EF2BE47AAF0012BE1C /* SearchViewV2.swift in Sources */,
+				E9C881F32BE47E3D0012BE1C /* ArchiveDetailsV2.swift in Sources */,
 				E9F8D1032BE08A8100D49AE0 /* ContentView.swift in Sources */,
-				E9F8D1132BE08B4B00D49AE0 /* ViewSettings.swift in Sources */,
+				E9C881EE2BE47AAF0012BE1C /* LibraryListV2.swift in Sources */,
+				E9C881EA2BE47AA40012BE1C /* ArchiveListV2.swift in Sources */,
+				E9C881EB2BE47AA40012BE1C /* ArchiveGridV2.swift in Sources */,
 				E9F8D1012BE08A8100D49AE0 /* tca_tree_navApp.swift in Sources */,
-				E9F8D1152BE08C1700D49AE0 /* LockScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
