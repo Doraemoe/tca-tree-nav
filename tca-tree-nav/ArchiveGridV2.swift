@@ -1,31 +1,11 @@
-import ComposableArchitecture
 import SwiftUI
 
-@Reducer struct GridFeature {
-    @ObservableState
-    struct State: Equatable, Identifiable {
-        var id = UUID()
-        
-        var name: String
-    }
-
-    enum Action: Equatable {
-    }
-
-    var body: some ReducerOf<Self> {
-        Reduce { state, action in
-            switch action {
-            }
-        }
-    }
-}
-
 struct ArchiveGridV2: View {
-    let store: StoreOf<GridFeature>
-
+    @State var name: String
+    
     var body: some View {
         VStack(alignment: HorizontalAlignment.center, spacing: 2) {
-            Text(store.name)
+            Text(name)
                 .lineLimit(2)
                 .foregroundColor(.primary)
                 .padding(4)
